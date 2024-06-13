@@ -1,1 +1,1 @@
-
+print("Hello Embedded Linux")
