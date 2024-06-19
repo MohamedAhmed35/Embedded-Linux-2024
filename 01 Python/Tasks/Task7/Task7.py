@@ -1,7 +1,6 @@
 import pyautogui
 import webbrowser
 from time import sleep
-from pprint import pprint
 
 email = 'https://mail.google.com/mail/u/0/#inbox'
 webbrowser.open(email)
