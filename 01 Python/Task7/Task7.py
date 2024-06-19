@@ -7,7 +7,6 @@ email = 'https://mail.google.com/mail/u/0/#inbox'
 webbrowser.open(email)
 sleep(7)
 
-
 def markUnreadEmails():
     location = None
     try:
