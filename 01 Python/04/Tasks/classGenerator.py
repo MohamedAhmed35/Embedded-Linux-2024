@@ -39,18 +39,19 @@ namespace {nameSpace}
 
 
 nameSpace_dec = rf"""
-
 namespace {nameSpace}
 {{
     {className}::{className}(){{}}
     {className}::~{className}(){{}}
 }}"""
 
+
+include_sec = rf"""
+#include "{className}.hpp" 
+"""
+
 with open(f'{className}.cpp', 'w') as file:
-    file.write(copyRight_sec + doc_sec + rf"""
-#include "{className}.hpp" """ + nameSpace_dec)
+    file.write(copyRight_sec + doc_sec + include_sec + nameSpace_dec)
     
 with open(f'{className}.hpp', 'w') as file:
     file.write(copyRight_sec + doc_sec + nameSpace_def)
-
-
