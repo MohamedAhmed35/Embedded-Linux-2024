@@ -3,21 +3,16 @@ import openpyxl
 
 
 with open('header.h', 'r') as file:
-    file.seek(0)
     file_lines = file.readlines()
     
 prototypes = []
 
-i = -1
 for ID, prototype in enumerate(file_lines, start = 1):
     prototype = prototype.rstrip('\n')
-
-    
     prototype_dict = {
         'Function Prototype': prototype,
         'Unique ID': f"IDX{ID:03}"
     }
-
     prototypes.append(prototype_dict)
 
 
