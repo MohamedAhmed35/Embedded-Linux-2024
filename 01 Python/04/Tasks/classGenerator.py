@@ -17,7 +17,7 @@ copyRight_sec = rf'''
  ***************************************************************/
 '''
 
-doc_sec = rf"""
+docmnt_sec = rf"""
 /*
 autor: {name}
 data : {x.strftime("%a %b %d %I:%M:%S %p %Y")}
@@ -51,7 +51,7 @@ include_sec = rf"""
 """
 
 with open(f'{className}.cpp', 'w') as file:
-    file.write(copyRight_sec + doc_sec + include_sec + nameSpace_dec)
+    file.write(copyRight_sec + docmnt_sec + include_sec + nameSpace_dec)
     
 with open(f'{className}.hpp', 'w') as file:
     file.write(copyRight_sec + doc_sec + nameSpace_def)
