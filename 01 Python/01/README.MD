@@ -20,7 +20,7 @@
 >      x = 3.5
 >      print(type(x))
 ##### comma Operator
->      x, y , z = 1, 2, 3
+>      x, y , z = 1, 2.5, 'M'
 >      print(x)
 >      print(y)
 >      print(z)
