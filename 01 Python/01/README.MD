@@ -16,3 +16,5 @@
 #### Example:
 >        x = 5
 >        x = -5
+##### To print the type of a variable use type() function
+>        print(type(x))
