@@ -10,6 +10,7 @@
 >      print("Hello, World!")
 #### 3. Run the script from the terminal
 >      python3 hello.py
+
 ### Variables
 #### Unlike other programming language, python has no command for declaring a vairable.
 #### A variable is created the moment you first assign a value to it.
@@ -24,8 +25,18 @@
 >      print(x)
 >      print(y)
 >      print(z)
+
 ### Python Data Types
 #### 1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
 #### Example:
 >        x = 5
 >        x = -5
+#### 2. Float (float): Float represent real numbers with a decimal point. They can also be positive or negative.
+>        height = 179.3
+>        temperature = -18.7
+#### 3. String (str): Strings are sequence of characters, enclosed within single qoutes (') or double quotes (").
+>        name = John
+>        message = "Hello, World!"
+#### 4. Boolean( bool): Booleans represent truth values. (True or False)
+>        is_right = True
+#### 5. List (list): Lists are ordered collections of items, which can be different types. They are mutuable, meaning thier element can be changed after creation.
