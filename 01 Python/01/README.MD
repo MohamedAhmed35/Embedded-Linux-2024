@@ -52,7 +52,7 @@
 
 ### Operators
 #### 1. Arithmatic operators
-<!--
+'''
 +  : Addition
 -  : subtraction
 *  : Multiplication
@@ -60,4 +60,4 @@
 %  : Modulus
 ** : Exponentiation
 // : Floor division
--->
+'''
