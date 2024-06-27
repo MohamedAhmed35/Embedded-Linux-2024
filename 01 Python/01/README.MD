@@ -12,6 +12,6 @@
 >      python3 hello.py
 
 ### Python Data Types
-####1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
-####Example:
+#### 1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
+#### Example:
 
