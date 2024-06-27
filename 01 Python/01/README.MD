@@ -14,5 +14,5 @@
 ### Python Data Types
 #### 1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
 #### Example:
-#### >  x = 5
-#### >  x = -5
+>  x = 5
+>  x = -5
