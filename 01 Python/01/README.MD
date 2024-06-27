@@ -10,7 +10,15 @@
 >      print("Hello, World!")
 #### 3. Run the script from the terminal
 >      python3 hello.py
-
+### Variables
+#### Unlike other programming language, python has no command for declaring a vairable.
+#### A variable is created the moment you first assign a value to it.
+>      x = 5
+>      print(type(x)
+>      x = "ahmed"
+>      print(type(x))
+>      x = 3.5
+>      print(type(x))
 ### Python Data Types
 #### 1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
 #### Example:
