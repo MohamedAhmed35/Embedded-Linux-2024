@@ -49,3 +49,15 @@
 #### 8. Set (set): Sets are unordered collection of unique elements. They are mutuable but do not allow duplicate             items
 >        unique_numbers = {1, 2, 3, 4, 5}
 >        unique_words = {"apple", "banana", "cherry"}
+
+### Operators
+#### 1. Arithmatic operators
+<!--
++  : Addition
+-  : subtraction
+*  : Multiplication
+/  : Division
+%  : Modulus
+** : Exponentiation
+// : Floor division
+-->
