@@ -39,4 +39,13 @@
 >        message = "Hello, World!"
 #### 4. Boolean( bool): Booleans represent truth values. (True or False)
 >        is_right = True
-#### 5. List (list): Lists are ordered collections of items, which can be different types. They are mutuable, meaning thier element can be changed after creation.
+#### 5. List (list): Lists are ordered collection of items, which can be different types. They are mutuable, meaning          thier element can be changed after creation.
+>        items = ['M', 2.5, '4', 'Weather']
+#### 6. Tuple (tuple): Tuples are similar to lists, they are ordered collection of items of different type, but are           immutable, meanning their elements cannot be changed after creating.
+>        colors = ('red', 'green', 'blue')
+>        items = ('M', 2.5, '4', 'Weather')
+#### 7. Dictionary (dict): Dictionaries are unordered collections of key-value pairs. They are mutable and indexed by         keys. In case of duplicate pair, it override the previous pair.
+>        dic = {'brand': 'Ford", "electric": Flase, "Year": 1964, "colors": ["red", "white", "blue"]}
+#### 8. Set (set): Sets are unordered collection of unique elements. They are mutuable but do not allow duplicate             items
+>        unique_numbers = {1, 2, 3, 4, 5}
+>        unique_words = {"apple", "banana", "cherry"}
