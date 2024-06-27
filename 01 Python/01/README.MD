@@ -19,10 +19,13 @@
 >      print(type(x))
 >      x = 3.5
 >      print(type(x))
+##### comma Operator
+>      x, y , z = 1, 2, 3
+>      print(x)
+>      print(y)
+>      print(z)
 ### Python Data Types
 #### 1. Integer (int): Integer represent the whole number without any decimal point. They can be positive or negative.
 #### Example:
 >        x = 5
 >        x = -5
-##### To print the type of a variable
->        print(type(x))
