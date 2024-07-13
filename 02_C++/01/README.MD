@@ -52,6 +52,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+```
 
 ## Comments
 - Single-line: // This is a comment
