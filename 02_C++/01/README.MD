@@ -57,3 +57,131 @@ int main() {
 ## Comments
 - Single-line: // This is a comment
 - Multi-line:  /* This is a multi-line commnet */
+
+## Display (Output)
+```cpp
+#include <iostream>
+int main (void)
+{
+  std::cout << "Output text" << std::endl;
+  return 0;
+} ```
+- std::cout: standard character output stream.
+- std::endl: Ends the line and flushes the buffer.
+
+## Data Types in C++
+- Primitive Types: int, char, float, double, bool.
+- Derived Types: Arrays, pointers, references.
+- User-defined Types: Classes, structures, unions, enumerations.
+
+## Input
+```cpp
+#include <iostream>
+{
+  int num;
+  std::cout << "Enter a number: ";
+  std::cin >> num;
+  std::cout << "You entered: " << num << std::endl;
+  return 0;
+} ```
+
+## Manipulators
+```cpp
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    int num = 255;
+    std::cout << std::hex << num << std::endl; // Outputs in hexadecimal
+    std::cout << std::dec << num << std::endl; // Outputs in decimal
+    return 0;
+} ```
+- std::hex: Manipulator to format output in hexadecimal.
+- std::dec: Manipulator to format output in decimal.
+
+## Global VS. Local Variables
+- **Global Variables**: Declared outside all functions and accessible from any function.
+- **Local Variables**: Declared within a function and accessible only within that function.
+
+## Operators
+- Arithmetic operators: +, -, *, /, %.
+- Relational operators: ==, !=, <, >, <=, >=.
+- Logical operators: &&, ||, !.
+- Bitwise operators: &, |, <<, >>.
+- Assignment operators: =, +=, -=, *=, /=, %=.
+
+
+## Conditional Statements (if/switch)
+
+### if Statements:
+```cpp
+int main() {
+    int num = 10;
+    if (num > 5) {
+        std::cout << "Number is greater than 5" << std::endl;
+    } else {
+        std::cout << "Number is 5 or less" << std::endl;
+    }
+    return 0;
+} ```
+
+### switch Statements:
+```cpp
+int main() {
+    int num = 2;
+    switch (num) {
+        case 1:
+            std::cout << "Number is 1" << std::endl;
+            break;
+        case 2:
+            std::cout << "Number is 2" << std::endl;
+            break;
+        default:
+            std::cout << "Number is not 1 or 2" << std::endl;
+            break;
+    }
+    return 0;
+} ```
+
+## Loops
+### For Loop:
+```cpp
+int main() {
+    for (int i = 0; i < 5; ++i) {
+        std::cout << i << std::endl;
+    }
+    return 0;
+} ```
+### While Loop:
+```cpp
+int main() {
+    int i = 0;
+    while (i < 5) {
+        std::cout << i << std::endl;
+        ++i;
+    }
+    return 0;
+} ```
+### do-while Loop:
+```cpp
+int main() {
+    int i = 0;
+    do {
+        std::cout << i << std::endl;
+        ++i;
+    } while (i < 5);
+    return 0;
+} ```
+### Range-Based Loop:
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    for (int num : vec) {
+        std::cout << num << std::endl;
+    }
+    return 0;
+} ```
+- Iterates over elements of a container (like array, vectors, or string).
