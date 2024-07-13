@@ -65,7 +65,8 @@ int main (void)
 {
   std::cout << "Output text" << std::endl;
   return 0;
-} ```
+} 
+```
 - std::cout: standard character output stream.
 - std::endl: Ends the line and flushes the buffer.
 
@@ -83,7 +84,8 @@ int main (void)
   std::cin >> num;
   std::cout << "You entered: " << num << std::endl;
   return 0;
-} ```
+} 
+```
 
 ## Manipulators
 ```cpp
@@ -95,7 +97,8 @@ int main() {
     std::cout << std::hex << num << std::endl; // Outputs in hexadecimal
     std::cout << std::dec << num << std::endl; // Outputs in decimal
     return 0;
-} ```
+} 
+```
 - std::hex: Manipulator to format output in hexadecimal.
 - std::dec: Manipulator to format output in decimal.
 
@@ -123,7 +126,8 @@ int main() {
         std::cout << "Number is 5 or less" << std::endl;
     }
     return 0;
-} ```
+} 
+```
 
 ### switch Statements:
 ```cpp
@@ -141,7 +145,8 @@ int main() {
             break;
     }
     return 0;
-} ```
+} 
+```
 
 ## Loops
 ### For Loop:
@@ -161,7 +166,9 @@ int main() {
         ++i;
     }
     return 0;
-} ```
+} 
+```
+
 ### do-while Loop:
 ```cpp
 int main() {
@@ -171,7 +178,9 @@ int main() {
         ++i;
     } while (i < 5);
     return 0;
-} ```
+} 
+```
+
 ### Range-Based Loop:
 ```cpp
 #include <iostream>
@@ -183,5 +192,6 @@ int main() {
         std::cout << num << std::endl;
     }
     return 0;
-} ```
+} 
+```
 - Iterates over elements of a container (like array, vectors, or string).
