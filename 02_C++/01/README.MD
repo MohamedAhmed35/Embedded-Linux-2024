@@ -6,9 +6,10 @@
   - No built-in support for OPP (Object-Oriented Programming).
   - Does not support function overloading.
   - No support for generic programming (templates).
+  - Uses **stdio.h** for input and output
 - C++:
   - Support both procedural and object-oriented programming.
   - Emphasizes objects and data abstraction.
   - Supports function overloading and operator overloading.
   - Provides templates for generic programming.
-  - Uses >iostream< for input and output
+  - Uses **iostream** for input and output
