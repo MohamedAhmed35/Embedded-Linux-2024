@@ -53,3 +53,6 @@ int main() {
     return 0;
 }
 
+## Comments
+- Single-line: // This is a comment
+- Multi-line:  /* This is a multi-line commnet */
