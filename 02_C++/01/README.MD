@@ -45,7 +45,7 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
   - **std::mdspan**, **std::generator**.
 
 ## Hello World Example
-'''
+'''cpp
 #include <iostream>
 
 int main(void)
@@ -53,4 +53,3 @@ int main(void)
   std::cout << "Hello, World!" << std::endl;
   return 0;
 }
-'''
