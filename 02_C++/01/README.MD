@@ -23,3 +23,25 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 - **Statically Typed Language**: Type checking is performed at compile-time.
 - **STL (Standard Template Library)**: Provides a set of common classes and interfaces for data structures and 
   algorithms.
+
+## C++ Standards and Popular Features
+- C++98:
+  - Introduced the Standard Template Library (STL).
+  - Basic support for templates, strings, and I/O streams.
+- C++11:
+  - Move semantics, auto keywords, lambda expressions, and threading.
+  - **nullptr**, ranged-based loop, and smart pointers.
+- C++14:
+  - Reader-writer locks, generic lambda expressions.
+- C++17:
+  - Fold expressions, **if constexpr**, structured bindings.
+  - **std::string_view**, parallel algorithms, and filesystem library.
+  - **std::any**, **std::optional**, and **std::variant**.
+- C++20:
+  - Coroutines, modules, concepts, ranges library.
+- C++23:
+  - Deducing **this**, modularized standard library, **std::print**, and **std::println**.
+  - Flat associative containers, **std::expected**, imporved ranges.
+  - **std::mdspan**, **std::generator**.
+
+## Hello World Example
